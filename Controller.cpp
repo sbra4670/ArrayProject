@@ -8,6 +8,8 @@ Controller :: Controller()
 
 }
 
+void printArray(int TheArray[], int sizeOfArray);
+
 void Controller :: start()
 {
     int Bob[3] = 
@@ -19,12 +21,13 @@ void Controller :: start()
 }
 
    
-    void printArray (int IntArray[], int sizeOfArray)
+    void printArray (int TheArray[], int sizeOfArray)
     {
         for(int i = 0; i < sizeOfArray; i++)
         {
-            cout << IntArray[i] << endl;
+            cout << TheArray << endl;
         }   
+
     }
 
 
